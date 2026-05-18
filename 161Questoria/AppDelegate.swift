@@ -12,9 +12,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+    func application(
+        _ application: UIApplication,
+        didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil
+    ) -> Bool {
+        QuestoriaUpdateManager.shared.initApp(application: application, window: UIWindow()) { _ in }
         return true
+    }
+
+    func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
+        DispatchQueue.main.async {
+            QuestoriaUpdateManager.shared.QuestoriaUpdateManagerRegisterToken(deviceToken: deviceToken)
+        }
     }
 
     // MARK: UISceneSession Lifecycle

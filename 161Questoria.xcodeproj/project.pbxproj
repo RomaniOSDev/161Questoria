@@ -46,6 +46,13 @@
 		300F80FC2FB4879800A41BC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 300F80D02FB4879800A41BC2 /* LaunchScreen.storyboard */; };
 		300F80FD2FB4879800A41BC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 300F80D22FB4879800A41BC2 /* Main.storyboard */; };
 		300F80FE2FB4879800A41BC2 /* privacy_policy.md in Resources */ = {isa = PBXBuildFile; fileRef = 300F80D32FB4879800A41BC2 /* privacy_policy.md */; };
+		3714D0D02FB7532800FB09F3 /* AppsFlyerLib-Static in Frameworks */ = {isa = PBXBuildFile; productRef = 3714D0CF2FB7532800FB09F3 /* AppsFlyerLib-Static */; };
+		3714D0D32FB7533300FB09F3 /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 3714D0D22FB7533300FB09F3 /* AlamofireDynamic */; };
+		3714D0D72FB7537400FB09F3 /* QuestoriaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3714D0D62FB7536C00FB09F3 /* QuestoriaView.swift */; };
+		3714D0D92FB7537C00FB09F3 /* QuestModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3714D0D82FB7537700FB09F3 /* QuestModels.swift */; };
+		3714D0DB2FB7538500FB09F3 /* ManagerQuestoria.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3714D0DA2FB7538000FB09F3 /* ManagerQuestoria.swift */; };
+		3714D0DD2FB7539200FB09F3 /* SerivcesQuestoria.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3714D0DC2FB7538900FB09F3 /* SerivcesQuestoria.swift */; };
+		3714D0DF2FB754D100FB09F3 /* QuestoriaMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3714D0DE2FB754CF00FB09F3 /* QuestoriaMainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -91,6 +98,12 @@
 		300F80D42FB4879800A41BC2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		300F80D52FB4879800A41BC2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		31C674F8F8AD134A1E1DBFED /* Pods-161Questoria.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-161Questoria.release.xcconfig"; path = "Target Support Files/Pods-161Questoria/Pods-161Questoria.release.xcconfig"; sourceTree = "<group>"; };
+		3714D0D42FB7535100FB09F3 /* 161Questoria.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = 161Questoria.entitlements; sourceTree = "<group>"; };
+		3714D0D62FB7536C00FB09F3 /* QuestoriaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestoriaView.swift; sourceTree = "<group>"; };
+		3714D0D82FB7537700FB09F3 /* QuestModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestModels.swift; sourceTree = "<group>"; };
+		3714D0DA2FB7538000FB09F3 /* ManagerQuestoria.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerQuestoria.swift; sourceTree = "<group>"; };
+		3714D0DC2FB7538900FB09F3 /* SerivcesQuestoria.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerivcesQuestoria.swift; sourceTree = "<group>"; };
+		3714D0DE2FB754CF00FB09F3 /* QuestoriaMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestoriaMainView.swift; sourceTree = "<group>"; };
 		A8559933E1A9BBEAE9FCCB70 /* Pods_161Questoria.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_161Questoria.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4DB004EDE0734FDB0F9E372 /* Pods-161Questoria.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-161Questoria.debug.xcconfig"; path = "Target Support Files/Pods-161Questoria/Pods-161Questoria.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -100,6 +113,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3714D0D02FB7532800FB09F3 /* AppsFlyerLib-Static in Frameworks */,
+				3714D0D32FB7533300FB09F3 /* AlamofireDynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +260,7 @@
 		300F80BC2FB4879800A41BC2 /* Activities */ = {
 			isa = PBXGroup;
 			children = (
+				3714D0DE2FB754CF00FB09F3 /* QuestoriaMainView.swift */,
 				300F80AC2FB4879800A41BC2 /* ArcaneRhythm */,
 				300F80AE2FB4879800A41BC2 /* BossGauntlet */,
 				300F80B12FB4879800A41BC2 /* ElementalCascade */,
@@ -258,6 +274,7 @@
 		300F80C12FB4879800A41BC2 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				3714D0D52FB7535800FB09F3 /* MainQuestUI */,
 				300F80BD2FB4879800A41BC2 /* HomeView.swift */,
 				300F80BE2FB4879800A41BC2 /* MainTabShellView.swift */,
 				300F80BF2FB4879800A41BC2 /* PlayAnimatedBackdropView.swift */,
@@ -308,6 +325,7 @@
 		300F80D62FB4879800A41BC2 /* 161Questoria */ = {
 			isa = PBXGroup;
 			children = (
+				3714D0D42FB7535100FB09F3 /* 161Questoria.entitlements */,
 				300F80A62FB4879800A41BC2 /* Core */,
 				300F80CA2FB4879800A41BC2 /* Features */,
 				300F80CB2FB4879800A41BC2 /* AppDelegate.swift */,
@@ -321,6 +339,17 @@
 				300F80D52FB4879800A41BC2 /* ViewController.swift */,
 			);
 			path = 161Questoria;
+			sourceTree = "<group>";
+		};
+		3714D0D52FB7535800FB09F3 /* MainQuestUI */ = {
+			isa = PBXGroup;
+			children = (
+				3714D0DC2FB7538900FB09F3 /* SerivcesQuestoria.swift */,
+				3714D0DA2FB7538000FB09F3 /* ManagerQuestoria.swift */,
+				3714D0D82FB7537700FB09F3 /* QuestModels.swift */,
+				3714D0D62FB7536C00FB09F3 /* QuestoriaView.swift */,
+			);
+			path = MainQuestUI;
 			sourceTree = "<group>";
 		};
 		656FA3535A1C339692EB0343 /* Pods */ = {
@@ -385,6 +414,10 @@
 				Base,
 			);
 			mainGroup = 300F7C582FB46D3700A41BC2;
+			packageReferences = (
+				3714D0CE2FB7532800FB09F3 /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */,
+				3714D0D12FB7533300FB09F3 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 300F7C622FB46D3700A41BC2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -445,7 +478,9 @@
 				300F80DB2FB4879800A41BC2 /* Notification+App.swift in Sources */,
 				300F80DC2FB4879800A41BC2 /* AppStorage.swift in Sources */,
 				300F80DD2FB4879800A41BC2 /* QuestoriaExternalLink.swift in Sources */,
+				3714D0DB2FB7538500FB09F3 /* ManagerQuestoria.swift in Sources */,
 				300F80DE2FB4879800A41BC2 /* QuestoriaGame.swift in Sources */,
+				3714D0D92FB7537C00FB09F3 /* QuestModels.swift in Sources */,
 				300F80DF2FB4879800A41BC2 /* AchievementDefinitions.swift in Sources */,
 				300F80E02FB4879800A41BC2 /* AchievementsView.swift in Sources */,
 				300F80E12FB4879800A41BC2 /* ArcaneRhythmViewModel.swift in Sources */,
@@ -464,14 +499,17 @@
 				300F80EE2FB4879800A41BC2 /* MainTabShellView.swift in Sources */,
 				300F80EF2FB4879800A41BC2 /* PlayAnimatedBackdropView.swift in Sources */,
 				300F80F02FB4879800A41BC2 /* PlayTabView.swift in Sources */,
+				3714D0DD2FB7539200FB09F3 /* SerivcesQuestoria.swift in Sources */,
 				300F80F12FB4879800A41BC2 /* OnboardingFlowView.swift in Sources */,
 				300F80F22FB4879800A41BC2 /* AttemptHistoryView.swift in Sources */,
+				3714D0DF2FB754D100FB09F3 /* QuestoriaMainView.swift in Sources */,
 				300F80F32FB4879800A41BC2 /* SettingsView.swift in Sources */,
 				300F80F42FB4879800A41BC2 /* LayeredBackgroundView.swift in Sources */,
 				300F80F52FB4879800A41BC2 /* QuestoriaDesignSystem.swift in Sources */,
 				300F80F62FB4879800A41BC2 /* AppDelegate.swift in Sources */,
 				300F80F72FB4879800A41BC2 /* ContentView.swift in Sources */,
 				300F80F82FB4879800A41BC2 /* SceneDelegate.swift in Sources */,
+				3714D0D72FB7537400FB09F3 /* QuestoriaView.swift in Sources */,
 				300F80F92FB4879800A41BC2 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +543,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = 161Questoria/161Questoria.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -524,7 +563,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.oeb.q63st0r1a;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -548,6 +587,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = 161Questoria/161Questoria.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -567,7 +607,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.oeb.q63st0r1a;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -725,6 +765,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3714D0CE2FB7532800FB09F3 /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppsFlyerSDK/AppsFlyerFramework-Static";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.18.0;
+			};
+		};
+		3714D0D12FB7533300FB09F3 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.12.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3714D0CF2FB7532800FB09F3 /* AppsFlyerLib-Static */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3714D0CE2FB7532800FB09F3 /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */;
+			productName = "AppsFlyerLib-Static";
+		};
+		3714D0D22FB7533300FB09F3 /* AlamofireDynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3714D0D12FB7533300FB09F3 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = AlamofireDynamic;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 300F7C592FB46D3700A41BC2 /* Project object */;
 }
