@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3003F7B42FBD99D40058EE20 /* AlamofireDynamic in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 3714D0D22FB7533300FB09F3 /* AlamofireDynamic */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		300F80D72FB4879800A41BC2 /* AccessibilityPreferencesStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300F80992FB4879800A41BC2 /* AccessibilityPreferencesStore.swift */; };
 		300F80D82FB4879800A41BC2 /* Array+Safe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300F809B2FB4879800A41BC2 /* Array+Safe.swift */; };
 		300F80D92FB4879800A41BC2 /* Color+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300F809C2FB4879800A41BC2 /* Color+App.swift */; };
@@ -54,6 +55,20 @@
 		3714D0DD2FB7539200FB09F3 /* SerivcesQuestoria.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3714D0DC2FB7538900FB09F3 /* SerivcesQuestoria.swift */; };
 		3714D0DF2FB754D100FB09F3 /* QuestoriaMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3714D0DE2FB754CF00FB09F3 /* QuestoriaMainView.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3003F7B52FBD99D40058EE20 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3003F7B42FBD99D40058EE20 /* AlamofireDynamic in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		300F7C612FB46D3700A41BC2 /* 161Questoria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 161Questoria.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -380,6 +395,7 @@
 				300F7C5D2FB46D3700A41BC2 /* Sources */,
 				300F7C5E2FB46D3700A41BC2 /* Frameworks */,
 				300F7C5F2FB46D3700A41BC2 /* Resources */,
+				3003F7B52FBD99D40058EE20 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -545,7 +561,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = 161Questoria/161Questoria.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 161Questoria/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = QuestoriaQuestoria;
@@ -589,7 +605,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = 161Questoria/161Questoria.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 161Questoria/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = QuestoriaQuestoria;
